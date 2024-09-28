@@ -1,6 +1,3 @@
-
-# Online Python - IDE, Editor, Compiler, Interpreter
-
 from fnmatch import *
 
 for z in range(98591, 10**12 + 1, 98591):

@@ -1,6 +1,3 @@
-
-# Online Python - IDE, Editor, Compiler, Interpreter
-
 file = open("17_11481.txt")
 lst = [int(x) for x in file]
 

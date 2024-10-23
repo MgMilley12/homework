@@ -9,11 +9,11 @@ for i in range(len(f) - 1):
                 if f1[0] == '3' and f1[5:7] == '78' and f1[9:] == '45':
                     s = max(s, f1)
         l = i
-n = 1
-ns = 0
+n = 0
+ns = 1
 for z in s:
     if int(z) % 2 == 1:
         n += int(z)
     else:
-        ns += int(z)
+        ns *= int(z)
 print(ns + n)
